@@ -1,0 +1,4 @@
+playwright==1.37.0
+playwright-recaptcha==0.3.2
+python-dotenv==1.0.0
+firebase-admin==6.2.0
