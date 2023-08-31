@@ -66,7 +66,7 @@ def sagres_scraping(db):
 
             sleep(1)
 
-            recado_ref = db.collection('uesc').document(os.getenv('UESC_SCRAPING_USER')).collection('recados').document(recado_hash)
+            recado_ref = db.collection('sagres').document(os.getenv('UESC_SCRAPING_USER')).collection('recados').document(recado_hash)
 
             recado_doc = recado_ref.get()
             if recado_doc.exists:
