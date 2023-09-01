@@ -79,7 +79,7 @@ def sagres_scraping(db):
         browser.close()
 
     sleep(k_hours * 3600)
-    main()
+    sagres_scraping(db)
 
 def main():
     load_dotenv()
